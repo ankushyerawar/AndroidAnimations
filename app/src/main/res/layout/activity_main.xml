@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#ECECEC"
+    android:layout_height="match_parent"
+    tools:context=".normalanimation.MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:layoutAnimation="@anim/layout_animation_fall_down"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>
+
+    <!--TODO Uncomment changes to see bottom animation-->
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:layoutAnimation="@anim/layout_anim_slide_from_bottom"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>-->
+
+    <!--TODO Uncomment changes to see right animation-->
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:layoutAnimation="@anim/layout_anim_slide_from_right"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>-->
+
+    <!--TODO Uncomment changes to see left animation-->
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        android:layoutAnimation="@anim/layout_anim_slide_from_left"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"/>-->
+
+    <!--TODO Uncomment changes to see bottom animation with Grid Layout-->
+    <!--<androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:orientation="vertical"
+        android:paddingBottom="10dp"
+        app:spanCount="2"
+        android:layoutAnimation="@anim/layout_anim_slide_from_bottom"
+        app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"/>-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

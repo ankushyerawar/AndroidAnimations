@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RecyclerViewAnimation</string>
+    <string name="dummy_title">Item Title_</string>
+    <string name="dummy_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</string>
+</resources>
