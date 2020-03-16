@@ -11,12 +11,13 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".fabanimation.FabActivity3"></activity>
         <activity android:name=".fabanimation.FabActivity2">
-            <!--<intent-filter>
+            <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>-->
+            </intent-filter>
         </activity>
         <activity android:name=".sequentialanimation.MainActivity4">
 
@@ -30,13 +31,17 @@
 
         </activity>
         <activity android:name=".fabanimation.FabActivity">
+
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+            -->
         </activity>
         <activity android:name=".gridanimation.MainActivity2">
+
             <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
