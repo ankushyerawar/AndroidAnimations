@@ -35,7 +35,7 @@ public class MainActivity4 extends AppCompatActivity {
 
         AnimationAdapter myAdapter = new AnimationAdapter(modelList);
 
-        AlphaInAnimationAdapter alphaInAnimationAdapter =  new AlphaInAnimationAdapter(myAdapter, mRecyclerView);
+        AlphaInAnimationAdapter alphaInAnimationAdapter = new AlphaInAnimationAdapter(myAdapter, mRecyclerView);
         mRecyclerView.setAdapter(alphaInAnimationAdapter);
     }
 }
