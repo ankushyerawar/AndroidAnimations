@@ -37,7 +37,10 @@ public class MainActivity extends AppCompatActivity {
             modelList.add(
                     new Model(
                             getResources().getString(R.string.dummy_title).concat(String.valueOf(i)),
-                            getResources().getString(R.string.dummy_desc)
+                            getResources().getString(R.string.dummy_desc),
+                            "This is Some Info To Show like Lorem ipsum, " + getResources().getString(R.string.dummy_desc),
+                            i + " June 2020",
+                            i
                     )
             );
         }
