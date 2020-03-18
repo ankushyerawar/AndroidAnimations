@@ -22,7 +22,6 @@ public class DialogAnimation extends AppCompatActivity implements View.OnClickLi
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dialog_animation);
         setViews();
-
     }
 
     private void setViews() {
